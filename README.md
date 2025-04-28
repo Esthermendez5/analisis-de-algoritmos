@@ -8,9 +8,9 @@
 | Nº | Título                          | Enlace                         |
 |----|---------------------------------|--------------------------------|
 | 01 | Introducción a los Algoritmos   | [Tarea_01.md](tareas/Tarea_01.md) |
-| 02 | Eficiencia y Caso Medio           | [Tarea_02.md](tareas/Tarea_02/Tarea_02.md) 
-[codigo_java](tareas/codigo_java) 
-[Capturas](tareas/Capturas) |
+| 02 | Eficiencia y Caso Medio           | [Tarea_02.md](tareas/Tarea_02/Tarea_02.md) |
+|      |                                                  | [codigo_java](tareas/Tarea_02/codigo_java) |
+|      |                                                  | [Capturas](tareas/Tarea_02/Capturas) |
 
 ## 🚀 Objetivo
 
