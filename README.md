@@ -8,7 +8,7 @@
 | Nº | Título                          | Enlace                         |
 |----|---------------------------------|--------------------------------|
 | 01 | Introducción a los Algoritmos   | [Tarea_01.md](tareas/Tarea_01.md) |
-| 02 | _[Próximamente]_                |                                |
+| 02 | Eficiencia y Caso Medio           | [Tarea_02.md](tareas/Tarea_01.md) |
 
 ## 🚀 Objetivo
 

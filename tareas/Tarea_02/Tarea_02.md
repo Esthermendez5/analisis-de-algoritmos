@@ -53,9 +53,5 @@ En la **búsqueda lineal** de un número en una lista de `n` elementos:
 
 ---
 
-
-
----
-
 > 👩‍💻 **Estudiante:** Esther Méndez  
 > 🏫 **Materia:** Análisis de Algoritmos
