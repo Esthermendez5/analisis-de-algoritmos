@@ -37,7 +37,7 @@ El objetivo de este repositorio es:
 
 ## 📊 Estructura del Repositorio
 
-### 📝 **Tareas**
+### 📝 **Tareas Semanales**
 > *Documentación completa organizada por semanas de estudio*
 
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
@@ -51,6 +51,17 @@ El objetivo de este repositorio es:
 | **Semana 5** | Notaciones Ω, Θ & Condicionales | [🔍 Tarea_05.mdi](tareas/Tarea_05.md) |
 | **Semana 6** | Estructuras de Control | [⚙️ Tarea_06.md](tareas/Tarea_06.md) |
 | **Semana 7** | Análisis Avanzado & Recurrencias | [🎯Tarea_07.md](tareas/Tarea_07.md) |
+
+### 📝 **TALLERES**
+
+| 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
+|----------------|------------------|---------------|
+| **Taller 1** | Ordenamiento merge   | [🎯codigo_java](talleres/semana_02/codigo_java)|
+|      |                                                    | [🔍Capturas](talleres/semana_02/Capturas) |
+| **Taller 2** | Derivadas | [📖 taller_02](talleres/taller_02) |
+| **Taller 3** | Prueba de escritorio, sumas | [📖 taller_03](talleres/taller_03) |
+| **Taller 4** | Algoritmo de fibonacci | [📊 taller_04](talleres/taller_04/codigo_java) |
+|      |                                                    | [🔍Capturas](talleres/taller_04/capturas) |
 
 ### 💻 **Código & Ejemplos**
 > *Implementaciones prácticas en Java*
