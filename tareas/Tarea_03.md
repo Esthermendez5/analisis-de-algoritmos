@@ -1,4 +1,4 @@
-# 🌟 Tarea 01
+# 🌟 Tarea 03
 📖 Semana 3
 # 1.4. Caso Peor
 🎯 ¿Qué es el Caso Peor?
@@ -28,7 +28,7 @@ Tiempo de Ejecución
         ↑
         |       ← Caso Peor (línea roja)
         |     /
-        |   /     ← Caso Promedio
+        |   /      ← Caso Promedio
         |  / 
 				+-------→ Tamaño del Input (n)
 ⚡ Importancia en la Práctica
