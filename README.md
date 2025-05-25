@@ -47,10 +47,10 @@ El objetivo de este repositorio es:
 |      |                                                  | [🎯codigo_java](tareas/Tarea_02/codigo_java) |
 |      |                                                  | [🔍Capturas](tareas/Tarea_02/Capturas) |
 | **Semana 3** | Caso Peor & Operaciones Elementales | [📖 Tarea_03.md](tareas/Tarea_03.md) |
-| **Semana 4** | Notación Big-O | [📊 Ver Wiki](./wiki.md#semana-4) |
-| **Semana 5** | Notaciones Ω, Θ & Condicionales | [🔍 Ver Wiki](./wiki.md#semana-5) |
-| **Semana 6** | Estructuras de Control | [⚙️ Ver Wiki](./wiki.md#semana-6) |
-| **Semana 7** | Análisis Avanzado & Recurrencias | [🎯 Ver Wiki](./wiki.md#semana-7) |
+| **Semana 4** | Notación Big-O | [📊 Tarea_04.md](tareas/Tarea_04.md) |
+| **Semana 5** | Notaciones Ω, Θ & Condicionales | [🔍 Tarea_05.mdi](tareas/Tarea_05.md) |
+| **Semana 6** | Estructuras de Control | [⚙️ Tarea_06.md](tareas/Tarea_06.md) |
+| **Semana 7** | Análisis Avanzado & Recurrencias | [🎯Tarea_07.md](tareas/Tarea_07.md) |
 
 ### 💻 **Código & Ejemplos**
 > *Implementaciones prácticas en Java*

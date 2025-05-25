@@ -16,16 +16,16 @@ El **caso peor** (worst case) representa el escenario donde un algoritmo requier
 #### 💡 Ejemplos Prácticos
 
 **🔍 Búsqueda Lineal:**
-```
-Array: [1, 2, 3, 4, 5]
-Buscar: 5 (último elemento)
+```java
+int[] array = {1, 2, 3, 4, 5};
+int target = 5; // último elemento
 ```
 - **Caso peor**: El elemento está al final o no existe
 - **Operaciones**: n comparaciones
 
 **📊 Ordenamiento Burbuja:**
-```
-Array: [5, 4, 3, 2, 1] (orden inverso)
+```java
+int[] array = {5, 4, 3, 2, 1}; // orden inverso
 ```
 - **Caso peor**: Array completamente desordenado
 - **Operaciones**: n(n-1)/2 comparaciones
@@ -66,11 +66,11 @@ Una **operación elemental** es la **unidad básica de trabajo** que un algoritm
 
 | Operación | Ejemplo de Código | Tiempo |
 |-----------|-------------------|---------|
-| **Asignación** | `x = 5` | O(1) |
+| **Asignación** | `int x = 5;` | O(1) |
 | **Comparación** | `if (a > b)` | O(1) |
-| **Operación Aritmética** | `sum = a + b` | O(1) |
+| **Operación Aritmética** | `int sum = a + b;` | O(1) |
 | **Acceso a Array** | `arr[i]` | O(1) |
-| **Llamada a Función** | `print(x)` | O(1) |
+| **Llamada a Método** | `System.out.println(x);` | O(1) |
 
 #### 🎯 ¿Qué NO son Operaciones Elementales?
 
@@ -80,14 +80,17 @@ Una **operación elemental** es la **unidad básica de trabajo** que un algoritm
 
 #### 💻 Ejemplo de Conteo
 
-```python
-def busqueda_lineal(arr, target):
-    for i in range(len(arr)):        # 1 operación (inicialización)
-        if arr[i] == target:         # 2 operaciones por iteración
-            return i                 # 1 operación
-    return -1                        # 1 operación
+```java
+public static int busquedaLineal(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {    // 1 operación (inicialización)
+        if (arr[i] == target) {              // 2 operaciones por iteración
+            return i;                        // 1 operación
+        }
+    }
+    return -1;                               // 1 operación
+}
 
-# Total en caso peor: 1 + 2n + 1 = 2n + 2 operaciones elementales
+// Total en caso peor: 1 + 2n + 1 = 2n + 2 operaciones elementales
 ```
 
 #### 🎨 Visualización del Conteo
@@ -95,10 +98,10 @@ def busqueda_lineal(arr, target):
 ```
 Algoritmo: Suma de Array
 ┌─────────────────────────────────┐
-│ sum = 0           ← 1 operación │
-│ for i in range(n): ← n operaciones (control del bucle) │
-│   sum += arr[i]   ← 2n operaciones (acceso + suma) │
-│ return sum        ← 1 operación │
+│ int sum = 0;      ← 1 operación │
+│ for (int i = 0; i < n; i++) ← n operaciones (control del bucle) │
+│   sum += arr[i];  ← 2n operaciones (acceso + suma) │
+│ return sum;       ← 1 operación │
 └─────────────────────────────────┘
 Total: 1 + n + 2n + 1 = 3n + 2 operaciones
 ```
