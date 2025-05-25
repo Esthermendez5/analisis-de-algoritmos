@@ -154,7 +154,7 @@ public static void ejemploComplexidad() {
 | **Materia** | Análisis de Algoritmos |
 | **Periodo** | 4 ciclo|
 | **Formato** | Wiki Digital + Código Java |
-| **Estado** | ✅ Completado |
+| **Estado** | ✅  |
 
 </div>
 
