@@ -44,8 +44,6 @@ El objetivo de este repositorio es:
 |----------------|------------------|---------------|
 | **Semana 1** | Introducción a los Algoritmos   | [📖Tarea_01.md](tareas/Tarea_01.md) |
 | **Semana 2** | Eficiencia y Caso Medio           | [📊Tarea_02.md](tareas/Tarea_02/Tarea_02.md) |
-|      |                                                  | [🎯codigo_java](tareas/Tarea_02/codigo_java) |
-|      |                                                  | [🔍Capturas](tareas/Tarea_02/Capturas) |
 | **Semana 3** | Caso Peor & Operaciones Elementales | [📖 Tarea_03.md](tareas/Tarea_03.md) |
 | **Semana 4** | Notación Big-O | [📊 Tarea_04.md](tareas/Tarea_04.md) |
 | **Semana 5** | Notaciones Ω, Θ & Condicionales | [🔍 Tarea_05.mdi](tareas/Tarea_05.md) |
@@ -61,7 +59,7 @@ El objetivo de este repositorio es:
 | **Taller 2** | Derivadas | [📖 taller_02](talleres/taller_02) |
 | **Taller 3** | Prueba de escritorio, sumas | [📖 taller_03](talleres/taller_03) |
 | **Taller 4** | Algoritmo de fibonacci | [📊 taller_04](talleres/taller_04/codigo_java) |
-|      |                                                    | [🔍Capturas](talleres/taller_04/capturas) |
+|      |                                                    | [🔍capturas](talleres/taller_04/capturas) |
 
 ### 💻 **Código & Ejemplos**
 > *Implementaciones prácticas en Java*
