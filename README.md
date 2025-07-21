@@ -142,6 +142,42 @@ public static void ejemploComplexidad() {
 </tr>
 </table>
 	
+	<h2>📘 Segundo Bimestre – Análisis de Algoritmos</h2>
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🧠 **Algoritmos Voraces**
+- ✅ 4.1 Características de algoritmos voraces  
+- ✅ 4.2 Aplicación en grafos no dirigidos  
+- ✅ 4.3 Aplicación en grafos dirigidos  
+
+#### 🔍 **Divide y Vencerás**
+- ✅ 5.1 Búsqueda binaria  
+- ✅ 5.2 Algoritmos de ordenación (Merge Sort, Quick Sort)  
+- ✅ 5.3 Cálculo de la mediana  
+- ✅ 5.4 Multiplicación de matrices (Strassen, convencional)  
+
+</td>
+<td width="50%">
+
+#### 🎲 **Algoritmos Probabilistas**
+- ✅ 6.1 Análisis del tiempo esperado  
+- ✅ 6.2 Algoritmos numéricos probabilistas  
+- ✅ 6.3 Algoritmos de Monte Carlo  
+
+#### 🧮 **Herramientas de Análisis**
+- ✅ Análisis del caso medio  
+- ✅ Análisis amortizado  
+- ✅ Recurrencias  
+- ✅ Comparaciones visuales y notación asintótica (Ω, Θ, O)  
+
+</td>
+</tr>
+</table>
+
+
 
 ## 🛠️ Tecnologías Utilizadas
 
