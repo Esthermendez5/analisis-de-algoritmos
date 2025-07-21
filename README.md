@@ -36,6 +36,9 @@ El objetivo de este repositorio es:
 ---
 
 ## 📊 Estructura del Repositorio
+
+### 📝 **Tareas Semanales**
+> *Documentación completa organizada por semanas de estudio*
 # Segundo Bimestre 
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
 |----------------|------------------|---------------|
@@ -49,8 +52,7 @@ El objetivo de este repositorio es:
 
 ---
 
-### 📝 **Tareas Semanales**
-> *Documentación completa organizada por semanas de estudio*
+# Primer Bimestre
 
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
 |----------------|------------------|---------------|
