@@ -142,7 +142,7 @@ public static void ejemploComplexidad() {
 </tr>
 </table>
 	
-	<h2>📘 Segundo Bimestre – Análisis de Algoritmos</h2>
+<h2>📘 Segundo Bimestre – Análisis de Algoritmos</h2>
 
 <table>
 <tr>
