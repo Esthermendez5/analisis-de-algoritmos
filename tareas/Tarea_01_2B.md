@@ -18,6 +18,12 @@ Los algoritmos voraces siguen una estrategia simple: en cada paso, eligen la mej
 - **No siempre óptimos globalmente**, pero útiles para soluciones rápidas y razonables.
 - **Heurísticas de decisión** en cada paso.
 
+#### ⚙️ Características clave:
+- 🧠 **Decisión local óptima**: Elige lo mejor en el momento.
+- 🚫 **No hay retroceso**: No revisa decisiones pasadas.
+- ⚖️ **No siempre garantiza la solución óptima global**.
+- ✅ **Rápido y eficiente** para ciertos problemas.
+
 #### ✅ Ventajas:
 - Eficiencia en tiempo.
 - Implementación directa.

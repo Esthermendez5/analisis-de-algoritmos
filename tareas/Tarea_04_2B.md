@@ -4,36 +4,86 @@
 ### Nombre: Esther Méndez  
 ### Segundo Bimestre 📘  
 # Contenido Semanal: Análisis de Algoritmos 🧠💻
-## 📅 Semana 4
-### 🔸 2.1 Notación para el "orden de" (O-grande) 📈
-![Dijkstra Example](https://msmk.university/wp-content/uploads/2024/09/maxresdefault-1.jpg)
-La notación Big O describe el crecimiento del tiempo de ejecución de un algoritmo en función del tamaño de la entrada.
+# 📅 Semana 4: Algoritmos Divide y Vencerás
+## 🔢 5.2 Ordenación
+![Dijkstra Example](https://cdn.goconqr.com/uploads/node/image/93464809/desktop_b554f9e9-aedc-48cf-9039-a01e651e4f09.jpg)
 
-### 💡 ¿Qué representa?
 
-Una cota superior del crecimiento.
+### 🧩 ¿Qué es un algoritmo de ordenación?
 
-Nos dice cuánto puede tardar como máximo un algoritmo.
+Un algoritmo de ordenación es aquel que organiza una colección de datos (como números o palabras) siguiendo un criterio específico (por ejemplo, de menor a mayor).
 
---- 
-
-### 🔸Reglas de Oro para la Big-O
-La regla de oro de la notación Big-O es una pauta importante que simplifica el análisis de la complejidad algorítmica y el proceso de clasificación. Primero, agregar etiquetas nos permite combinar la complejidad de diferentes partes del algoritmo. La dominancia de términos indica que se pueden omitir términos o constantes de orden inferior al evaluar el valor de Big-O. De manera similar, la regla del producto se utiliza para analizar algoritmos complejos y su complejidad. El principio del término dominante sugiere centrarse en los términos que tienen el mayor impacto en el crecimiento temporal. Estas reglas guían la selección de soluciones eficientes en el desarrollo de software, simplifican el análisis de la complejidad y permiten a los desarrolladores comprender con mayor rapidez y precisión cómo se comportan los algoritmos a medida que aumenta el tamaño de las entradas.
+El enfoque **divide y vencerás** es especialmente útil para este tipo de problemas, ya que divide el conjunto de datos en partes más pequeñas, las ordena y luego las une.
 
 ---
-### 🔸Importancia de la notación Big O
-La notación Big O es una notación matemática que se utiliza para determinar el límite superior del tiempo empleado por un algoritmo o una estructura de datos. Permite comparar el rendimiento de diferentes algoritmos y estructuras de datos, y predecir su comportamiento al aumentar el tamaño de entrada.
 
-La notación Big O es importante por varias razones:
+### 📌 Principales algoritmos de ordenación por divide y vencerás
 
-- La notación Big O es importante porque ayuda a analizar la eficiencia de los algoritmos.
-- Proporciona una manera de describir cómo los requisitos de espacio o de tiempo de ejecución de un algoritmo aumentan a medida que aumenta el tamaño de entrada.
-- Permite a los programadores comparar diferentes algoritmos y elegir el más eficiente para un problema específico.
-- Ayuda a comprender la escalabilidad de los algoritmos y a predecir cómo funcionarán a medida que aumenta el tamaño de entrada.
-- Permite a los desarrolladores optimizar el código y mejorar el rendimiento general.
-
-📌 Ejemplo: Un algoritmo que revisa cada elemento de una lista tiene una complejidad O(n), donde n es el número de elementos.
-
-
+| 🛠️ Algoritmo         | 🧠 Idea principal                        | ⏱️ Complejidad promedio | 💬 Comentario breve                    |
+|----------------------|------------------------------------------|--------------------------|----------------------------------------|
+| 🌀 Merge Sort         | Divide en mitades, ordena y combina      | O(n log n)               | Estable, muy eficiente                 |
+| 🔀 Quick Sort         | Escoge un pivote, divide y ordena        | O(n log n)               | Muy rápido en la práctica              |
 
 ---
+
+### 📚 Ejemplo práctico en Java – Merge Sort
+
+```java
+public class MergeSort {
+    public static void mergeSort(int[] array) {
+        if (array.length <= 1) return;
+
+        int mid = array.length / 2;
+        int[] left = new int[mid];
+        int[] right = new int[array.length - mid];
+
+        for (int i = 0; i < mid; i++) left[i] = array[i];
+        for (int i = mid; i < array.length; i++) right[i - mid] = array[i];
+
+        mergeSort(left);
+        mergeSort(right);
+        merge(array, left, right);
+    }
+
+    public static void merge(int[] result, int[] left, int[] right) {
+        int i = 0, j = 0, k = 0;
+
+        while (i < left.length && j < right.length)
+            result[k++] = (left[i] <= right[j]) ? left[i++] : right[j++];
+
+        while (i < left.length) result[k++] = left[i++];
+        while (j < right.length) result[k++] = right[j++];
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {38, 27, 43, 3, 9, 82, 10};
+        mergeSort(nums);
+        for (int num : nums) System.out.print(num + " ");
+    }
+}
+```
+### 🎯 Conclusión
+Los algoritmos de ordenación basados en "divide y vencerás" son muy eficientes para grandes volúmenes de datos.
+
+- Merge Sort es muy confiable y estable.
+
+- Quick Sort es más rápido en promedio pero no garantiza estabilidad.
+
+💡 Divide y vencerás es como organizar un cuarto desordenado: primero organizas por zonas pequeñas (ropa, libros, etc.), y luego juntas todo en orden.
+
+### 📊 Comparación visual: Merge Sort vs Quick Sort
+
+| ⚙️ Característica         | 🌀 Merge Sort                             | 🔀 Quick Sort                              |
+|--------------------------|-------------------------------------------|--------------------------------------------|
+| 📚 Método                | Divide y mezcla                           | Divide y conquista con pivote              |
+| 🧠 Estrategia             | Divide en mitades, ordena, y combina       | Escoge un pivote, particiona y ordena      |
+| ⏱️ Complejidad (promedio) | O(n log n)                                | O(n log n)                                 |
+| ⏱️ Complejidad (peor caso)| O(n log n)                                | O(n²) (cuando el pivote es mal elegido)    |
+| 🧪 Estabilidad           | ✅ Sí (mantiene el orden de iguales)       | ❌ No necesariamente estable                |
+| 💾 Uso de memoria        | 🧠 Más memoria (usa arrays temporales)     | 💡 Menos memoria (en el lugar)             |
+| 💻 Rendimiento en práctica| Algo más lento por copias de arrays        | Rápido, especialmente para grandes datos   |
+| ✔️ Ideal para            | Datos grandes y cuando se necesita estabilidad | Rendimiento puro, si no importa la estabilidad |
+
+🔎 *Resumen:*  
+- **Merge Sort** es más **estable** y predecible.
+- **Quick Sort** es más **rápido**, pero **riesgoso** en su peor caso.

@@ -50,6 +50,18 @@ El objetivo de este repositorio es:
 | **Semana 6** | Estructuras de Control | [⚙️ Tarea_06.md](tareas/Tarea_06.md) |
 | **Semana 7** | Análisis Avanzado & Recurrencias | [🎯Tarea_07.md](tareas/Tarea_07.md) |
 
+--- 
+# Segundo Bimestre 
+| 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
+|----------------|------------------|---------------|
+| **Semana 1** | Algoritmos voraces - Grafos no dirigidos   | [📖Tarea_01_2B.md](tareas/Tarea_01.md) |
+| **Semana 2** | Algoritmos voraces II - Grafos dirigidos          | [📊Tarea_02_2B.md](tareas/Tarea_02/Tarea_02.md) |
+| **Semana 3** | Algoritmos divide y vencerás - Búsqueda binaria | [📖 Tarea_03_2B.md](tareas/Tarea_03.md) |
+| **Semana 4** | Algoritmos divide y vencerás II - Ordenación | [📊 Tarea_04_2B.md](tareas/Tarea_04.md) |
+| **Semana 5** | Algoritmos divide y vencerás -Mediana | [🔍 Tarea_05_2B.mdi](tareas/Tarea_05.md) |
+| **Semana 6** | Algoritmos probabilistas -  Tiempo esperado  | [⚙️ Tarea_06_2B.md](tareas/Tarea_06.md) |
+| **Semana 7** | Algoritmos probabilistas - Algoritmos de Monte Carlo | [🎯Tarea_07_2B.md](tareas/Tarea_07.md) |
+
 ### 📝 **TALLERES**
 
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
