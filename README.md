@@ -40,7 +40,7 @@ El objetivo de este repositorio es:
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
 |----------------|------------------|---------------|
 | **Semana 1** | Algoritmos voraces - Grafos no dirigidos   | [📖Tarea_01_2B.md](tareas/Tarea_01_2B.md) |
-| **Semana 2** | Algoritmos voraces II - Grafos dirigidos          | [📊Tarea_02_2B.md](tareas/Tarea_02/Tarea_02_2B.md) |
+| **Semana 2** | Algoritmos voraces II - Grafos dirigidos          | [📊Tarea_02_2B.md](tareas/Tarea_02_2B.md) |
 | **Semana 3** | Algoritmos divide y vencerás - Búsqueda binaria | [📖 Tarea_03_2B.md](tareas/Tarea_03_2B.md) |
 | **Semana 4** | Algoritmos divide y vencerás II - Ordenación | [📊 Tarea_04_2B.md](tareas/Tarea_04_2B.md) |
 | **Semana 5** | Algoritmos divide y vencerás -Mediana | [🔍 Tarea_05_2B.mdi](tareas/Tarea_05_2B.md) |
