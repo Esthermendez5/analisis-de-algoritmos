@@ -39,10 +39,6 @@ public class Generador_pseudoaleatorio {
     /**
      * Método para generar una secuencia de números pseudoaleatorios
      * usando el método congruencial lineal.
-     *
-     * @param semilla Semilla inicial definida por el usuario
-     * @param cantidad Número total de valores a generar
-     * @return Arreglo de números generados en el rango [0, 1)
      */
     public static double[] generarPseudoaleatorios(long semilla, int cantidad) {
         // Parámetros del método congruencial lineal (Numerical Recipes)
