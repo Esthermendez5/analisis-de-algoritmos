@@ -10,9 +10,6 @@ class Arista {
 
     /**
      * Constructor de la clase Arista
-     * @param origen Nodo de origen (índice desde 0)
-     * @param destino Nodo de destino (índice desde 0)  
-     * @param peso Peso/costo de la arista
      */
     Arista(int origen, int destino, int peso) {
         this.origen = origen;
@@ -23,7 +20,6 @@ class Arista {
     /**
      * Método toString personalizado para mostrar la arista
      * Convierte índices internos (0-5) a numeración humana (1-6)
-     * @return String en formato {origen+1, destino+1}
      */
     @Override
     public String toString() {
@@ -70,9 +66,6 @@ public class Funcion_Prim  {
     /**
      * Método para agregar una arista al grafo no dirigido
      * Como el grafo es no dirigido, se agrega la arista en ambas direcciones
-     * @param u Primer nodo
-     * @param v Segundo nodo
-     * @param peso Peso de la arista
      */
     static void agregarArista(int u, int v, int peso) {
         // Agregar arista u->v a la lista de adyacencia del nodo u
@@ -173,8 +166,6 @@ public class Funcion_Prim  {
     /**
      * Método auxiliar para convertir un conjunto de nodos a formato legible
      * Convierte índices internos (0-5) a numeración humana (1-6)
-     * @param conjunto Conjunto de nodos con índices desde 0
-     * @return String representando la lista de nodos con índices desde 1
      */
     static String mostrar(Set<Integer> conjunto) {
         List<Integer> lista = new ArrayList<>();
