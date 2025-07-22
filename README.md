@@ -66,6 +66,17 @@ El objetivo de este repositorio es:
 
 --- 
 ### 📝 **TALLERES**
+# Segundo Bimestre
+### Talleres en Java
+| 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
+|----------------|------------------|---------------|
+| **Taller** | Grafo Dirigido   | [🎯Dijkstra](talleres/SegundoBimestre/Talleres_Java/Dijkstra)|
+| **Taller** | Cambio con el menor numero de monedas | [📖 Funcion devolver](talleres/SegundoBimestre/Talleres_Java/funcion_devolver) |
+| **Taller** | Mostrando paso a paso el Árbol de Recubrimiento Mínimo (Grafos no dirigidos)   | [📖 FuncionPrim](talleres/SegundoBimestre/Talleres_Java/funcion_Prim) |
+| **Taller** | Método Congruencia Lineal | [📊Generación de números Pseudoaleatorios](talleres/SegundoBimestre/Talleres_Java/generador_pseudoaleatorio) |
+| **Taller** | Multiplicación de matrices | [📊Multiplicacion de matrices ](talleres/SegundoBimestre/Talleres_Java/multiplicacion_matrices) |
+
+# Primer Bimestre
 
 | 📁 **Sección** | 🎯 **Contenido** | 🔗 **Enlace** |
 |----------------|------------------|---------------|
